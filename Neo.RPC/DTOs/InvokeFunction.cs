@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Newtonsoft.Json;
 
-namespace Neo.RPC.Services.Contract
+namespace Neo.RPC.DTOs
 {/// <Summary>
  ///     invoke    
  ///     Returns the result after calling a smart contract at scripthash with the given parameters.
@@ -46,7 +46,7 @@ namespace Neo.RPC.Services.Contract
  ///     }
  /// }
  /// </Summary>   
-    public class NeoInvokeFunction
+    public class InvokeFunction
     {
         [JsonProperty("state")]
         public string State { get; set; }

@@ -18,6 +18,7 @@
         gettxout,
         getversion,
         invoke,
+        invokefunction,
         sendrawtransaction,
         sendtoaddress,
         sendmany,
